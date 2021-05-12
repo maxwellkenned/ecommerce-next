@@ -1,11 +1,11 @@
 
-# Boilerplate Nextjs
+# Projeto E-commerce
 
-This is a boilerplate project to be used at the beginning of a new project
+Este é um projeto inicial de um e-commerce
 
-## What is inside?
+## O que está dentro?
 
-This project uses lot of stuff as:
+Este projeto usa muitas coisas como:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
@@ -16,10 +16,19 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [Json-server](https://github.com/typicode/json-server)
 
-## Getting Started
+## Iniciando o projeto
 
-First, run the development server:
+Primeiro suba o servidor:
+
+```bash
+npm run server
+# or
+yarn server
+```
+
+depois, em outro terminal:
 
 ```bash
 npm run dev
@@ -27,34 +36,16 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
 ## Commands
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-
-
-## TODO LIST
-  - [ ] add [cypress](https://www.cypress.io/)
-  - [ ] add CI Travis pipeline
-  - [ ] add Google Analytics
-  - [ ] add Microsoft Clarity
+- `server`: executa um servidor da aplicação em `localhost:3333`
+- `dev`: executa a aplicação em `localhost:3000`
+- `build`: cria a versão de produção
+- `start`: inicia um servidor simples com o código de produção de construção
+- `lint`: executa o linter em todos os componentes e páginas
+- `test`: executa jest para testar todos os componentes e páginas
+- `test:watch`: executa jest em watch mode
+- `storybook`: executa storybook em `localhost:6006`
+- `build-storybook`: cria a versão de produção do storybook

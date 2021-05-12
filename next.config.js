@@ -1,13 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const withPWA = require('next-pwa')
-const isProd = process.env.NODE_ENV === 'production'
-
-module.exports = withPWA({
-  pwa: {
-    dest: 'public',
-    disable: !isProd
-  },
+module.exports = {
   future: {
     webpack5: true
+  },
+  images: {
+    domains: ['www.petlove.com.br']
+  },
+  publicRuntimeConfig: {
+    backendUrl: process.env.HOST || 'http://localhost:3333'
   }
-})
+}
