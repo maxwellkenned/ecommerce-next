@@ -8,15 +8,15 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>React Avançado - Boilerplate</title>
+        <title>Pet Friends Acessories</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link rel="shortcut icon" href="/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="shortcut icon" href="/img/logo.png" />
+        <link rel="apple-touch-icon" href="/img/logo.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#06092B" />
+        <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          content="Este é um projeto inicial de um e-commerce"
         />
       </Head>
       <GlobalStyles />
